@@ -5,12 +5,14 @@ public class Tree {
     private Integer numberOfBranch;
     private String leaveType;
     private Double trunkPerimeter;
+    private Double treeTop;
 
     //Konstruktor
-    public Tree(Integer numberOfBranch, String leaveType, Double trunkPerimeter) {
+    public Tree(Integer numberOfBranch, String leaveType, Double trunkPerimeter, Double treeTop) {
         this.numberOfBranch = numberOfBranch;
         this.leaveType = leaveType;
         this.trunkPerimeter = trunkPerimeter;
+        this.treeTop = treeTop;
     }
 
     //Methoden
@@ -36,5 +38,13 @@ public class Tree {
 
     public void setTrunkPerimeter(Double trunkPerimeter) {
         this.trunkPerimeter = trunkPerimeter;
+    }
+
+    public Double getTreeTop() {
+        return treeTop;
+    }
+
+    public void setTreeTop(Double treeTop) {
+        this.treeTop = treeTop;
     }
 }

@@ -11,13 +11,13 @@ public class Living {
     private String designation;
 
     //Konstruktor
-    public Living(boolean isLiving, Double weight, Double height, Double width, Integer age, String location, String designation) {
+    public Living(boolean isLiving, Double weightInKg, Double heightInM, Double widthInM, Integer ageInY, String locationInCountry, String designation) {
         this.isLiving = isLiving;
-        this.weightInKg = weight;
-        this.heightInM = height;
-        this.widthInM = width;
-        this.ageInY = age;
-        this.locationInCountry = location;
+        this.weightInKg = weightInKg;
+        this.heightInM = heightInM;
+        this.widthInM = widthInM;
+        this.ageInY = ageInY;
+        this.locationInCountry = locationInCountry;
         this.designation = designation;
     }
 
