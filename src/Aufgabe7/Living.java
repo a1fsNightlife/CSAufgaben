@@ -1,3 +1,5 @@
+package Aufgabe7;
+
 //Klasse
 public class Living {
 
