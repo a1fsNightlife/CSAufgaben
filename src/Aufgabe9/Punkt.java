@@ -4,31 +4,51 @@ import java.awt.*;
 
 public class Punkt {
 
-    private Integer pointX;
-    private Integer pointY;
+    private Double pointX;
+    private Double pointY;
 
-    public Punkt(Integer pointX, Integer pointY) {
+    public Punkt(Double pointX, Double pointY) {
         this.pointX = pointX;
         this.pointY = pointY;
     }
 
-    public static Punkt addPoint(Integer pointX, Integer pointY) {
-        return new Punkt(pointX, pointY);
+    public static Punkt addPoint(Punkt punkt1, Punkt punkt2) {
+        Double resultX = punkt1.getPointX() + punkt2.getPointX();
+        Double resultY = punkt1.getPointY() + punkt2.getPointY();
+        return new Punkt(resultX, resultY);
     }
 
-    public Integer getPointX() {
+    public static Punkt subtractPoint(Punkt punkt1, Punkt punkt2) {
+        Double resultX = punkt1.getPointX() - punkt2.getPointX();
+        Double resultY = punkt1.getPointY() - punkt2.getPointY();
+        return new Punkt(resultX, resultY);
+    }
+
+    public static Punkt multiplyPunkt(Punkt punkt1, Punkt punkt2) {
+        Double resultX = punkt1.getPointX() * punkt2.getPointX();
+        Double resultY = punkt1.getPointY() * punkt2.getPointY();
+        return new Punkt(resultX, resultY);
+    }
+
+    public static Punkt dividePunkt(Punkt punkt1, Punkt punkt2) {
+        Double resultX = punkt1.getPointX() / punkt2.getPointX();
+        Double resultY = punkt1.getPointY() / punkt2.getPointY();
+        return new Punkt(resultX, resultY);
+    }
+
+    public Double getPointX() {
         return pointX;
     }
 
-    public void setPointX(Integer pointX) {
+    public void setPointX(Double pointX) {
         this.pointX = pointX;
     }
 
-    public Integer getPointY() {
+    public Double getPointY() {
         return pointY;
     }
 
-    public void setPointY(Integer pointY) {
+    public void setPointY(Double pointY) {
         this.pointY = pointY;
     }
 
