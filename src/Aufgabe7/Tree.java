@@ -4,49 +4,49 @@ package Aufgabe7;
 public class Tree {
 
     //Felder
-    private Integer numberOfBranch;
-    private String leaveType;
-    private Double trunkPerimeter;
-    private Double treeTop;
+    private Integer numberOfBranches;
+    private String leafType;
+    private Double trunkPerimeterInM;
+    private Double treeTopHeightInM;
 
     //Konstruktor
-    public Tree(Integer numberOfBranch, String leaveType, Double trunkPerimeter, Double treeTop) {
-        this.numberOfBranch = numberOfBranch;
-        this.leaveType = leaveType;
-        this.trunkPerimeter = trunkPerimeter;
-        this.treeTop = treeTop;
+    public Tree(Integer numberOfBranches, String leafType, Double trunkPerimeterInM, Double treeTopHeightInM) {
+        this.numberOfBranches = numberOfBranches;
+        this.leafType = leafType;
+        this.trunkPerimeterInM = trunkPerimeterInM;
+        this.treeTopHeightInM = treeTopHeightInM;
     }
 
     //Methoden
-    public Integer getNumberOfBranch() {
-        return numberOfBranch;
+    public Integer getNumberOfBranches() {
+        return numberOfBranches;
     }
 
-    public void setNumberOfBranch(Integer numberOfBranch) {
-        this.numberOfBranch = numberOfBranch;
+    public void setNumberOfBranches(Integer numberOfBranches) {
+        this.numberOfBranches = numberOfBranches;
     }
 
-    public String getLeaveType() {
-        return leaveType;
+    public String getLeafType() {
+        return leafType;
     }
 
-    public void setLeaveType(String leaveType) {
-        this.leaveType = leaveType;
+    public void setLeafType(String leafType) {
+        this.leafType = leafType;
     }
 
-    public Double getTrunkPerimeter() {
-        return trunkPerimeter;
+    public Double getTrunkPerimeterInM() {
+        return trunkPerimeterInM;
     }
 
-    public void setTrunkPerimeter(Double trunkPerimeter) {
-        this.trunkPerimeter = trunkPerimeter;
+    public void setTrunkPerimeterInM(Double trunkPerimeterInM) {
+        this.trunkPerimeterInM = trunkPerimeterInM;
     }
 
-    public Double getTreeTop() {
-        return treeTop;
+    public Double getTreeTopHeightInM() {
+        return treeTopHeightInM;
     }
 
-    public void setTreeTop(Double treeTop) {
-        this.treeTop = treeTop;
+    public void setTreeTopHeightInM(Double treeTopHeightInM) {
+        this.treeTopHeightInM = treeTopHeightInM;
     }
 }

@@ -4,24 +4,24 @@ package Aufgabe7;
 public class Human {
 
 	// Felder
-	private int iq;
+	private Integer iq;
 	private String name;
-	private int ageInYears;
+	private Integer ageInYears;
 
 	// Konstruktor
-	public Human(int iq, String name, int ageInYears) {
+	public Human(Integer iq, String name, Integer ageInYears) {
 		this.iq = iq;
 		this.name = name;
 		this.ageInYears = ageInYears;
 	}
 
 	// Methode (Getter)
-	public int getIq() {
+	public Integer getIq() {
 		return iq;
 	}
 
 	// Methode (Setter)
-	public void setIq(int iq) {
+	public void setIq(Integer iq) {
 		this.iq = iq;
 	}
 
@@ -36,12 +36,12 @@ public class Human {
 	}
 
 	// Methode (Getter)
-	public int getAgeInYears() {
+	public Integer getAgeInYears() {
 		return ageInYears;
 	}
 
 	// Methode (Setter)
-	public void setAgeInYears(int ageInYears) {
+	public void setAgeInYears(Integer ageInYears) {
 		this.ageInYears = ageInYears;
 	}
 

@@ -14,17 +14,17 @@ public class CircleTest {
     public void shouldCalcPerimeter() {
         Double radius = 5.0;
         Double expected = 31.415926535;
-        //Double result = Circle.calcPerimeter();
+        Double result = Circle.calcPerimeter();
 
-        //assertEquals(expected, result, DELTA);
+        assertEquals(expected, result, DELTA);
     }
 
     @Test
     public void shouldCalcArea() {
         Double radius = 5.0;
         Double expected = 78.5398163375;
-        //Double result = Circle.calcArea();
+        Double result = Circle.calcArea();
 
-        //assertEquals(expected, result, DELTA);
+        assertEquals(expected, result, DELTA);
     }
 }

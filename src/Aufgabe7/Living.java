@@ -4,7 +4,7 @@ package Aufgabe7;
 public class Living {
 
     //Felder
-    private boolean isLiving;
+    private boolean isAlive;
     private Double weightInKg;
     private Double heightInM;
     private Double widthInM;
@@ -13,8 +13,8 @@ public class Living {
     private String designation;
 
     //Konstruktor
-    public Living(boolean isLiving, Double weightInKg, Double heightInM, Double widthInM, Integer ageInY, String locationInCountry, String designation) {
-        this.isLiving = isLiving;
+    public Living(boolean isAlive, Double weightInKg, Double heightInM, Double widthInM, Integer ageInY, String locationInCountry, String designation) {
+        this.isAlive = isAlive;
         this.weightInKg = weightInKg;
         this.heightInM = heightInM;
         this.widthInM = widthInM;
@@ -24,12 +24,12 @@ public class Living {
     }
 
     //Methoden
-    public boolean isLiving() {
-        return isLiving;
+    public boolean isAlive() {
+        return isAlive;
     }
 
-    public void setLiving(boolean living) {
-        isLiving = living;
+    public void setAlive(boolean alive) {
+        isAlive = alive;
     }
 
     public Double getWeightInKg() {

@@ -13,7 +13,7 @@ public class PunkTest {
         Punkt punkt1 = new Punkt(5.0, DELTA);
         Punkt punkt2 = new Punkt(4.0, DELTA);
         Punkt expected = new Punkt(9.0, DELTA);
-        Punkt result = Punkt.addPoint(punkt1, punkt2);
+        Punkt result = Punkt.addPunkt(punkt1, punkt2);
 
         assertEquals(expected.getPointX(), result.getPointX(), DELTA);
         assertEquals(expected.getPointY(), result.getPointY(), DELTA);
@@ -24,7 +24,7 @@ public class PunkTest {
         Punkt punkt1 = new Punkt(5.0, 10.0);
         Punkt punkt2 = new Punkt(4.0, 9.0);
         Punkt expected = new Punkt(1.0, 1.0);
-        Punkt result = Punkt.subtractPoint(punkt1, punkt2);
+        Punkt result = Punkt.subtractPunkt(punkt1, punkt2);
 
         assertEquals(expected.getPointX(), result.getPointX(), DELTA);
         assertEquals(expected.getPointY(), result.getPointY(), DELTA);

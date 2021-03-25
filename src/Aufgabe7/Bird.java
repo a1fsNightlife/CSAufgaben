@@ -9,13 +9,13 @@ public class Bird {
 	// Felder
 	private boolean isAlive;
 	private boolean canFly;
-	private final List<Egg> eggs;
+	private final List<Egg> eggsInNest;
 
 	// Konstruktor
 	public Bird(boolean isAlive, boolean canFly) {
 		this.isAlive = isAlive;
 		this.canFly = canFly;
-		this.eggs = new ArrayList<>();
+		this.eggsInNest = new ArrayList<>();
 	}
 
 	// Methode (Getter)
@@ -39,8 +39,8 @@ public class Bird {
 	}
 
 	// Methode (Getter)
-	public List<Egg> getEggs() {
-		return eggs;
+	public List<Egg> getEggsInNest() {
+		return eggsInNest;
 	}
 
 }

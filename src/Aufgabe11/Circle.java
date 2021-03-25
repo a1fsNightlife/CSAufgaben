@@ -13,13 +13,13 @@ public class Circle extends GeometricForm {
     }
 
     @Override
-    public Double calcArea() {
-        return null;
+    public Double calcPerimeter() {
+        return getRadius() * 2 * Math.PI;
     }
 
     @Override
-    public Double calcPerimeter() {
-        return null;
+    public Double calcArea() {
+        return Math.PI * getRadius() * getRadius();
     }
 
     public Double getRadius() {

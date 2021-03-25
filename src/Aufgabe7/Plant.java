@@ -5,12 +5,12 @@ public class Plant {
 
     //Felder
     private boolean isAbleToMove;
-    private String nutrition;
+    private String nutritionType;
 
     //Konstruktor
-    public Plant(boolean isAbleToMove, String nutrition) {
+    public Plant(boolean isAbleToMove, String nutritionType) {
         this.isAbleToMove = isAbleToMove;
-        this.nutrition = nutrition;
+        this.nutritionType = nutritionType;
     }
 
     //Methoden
@@ -22,11 +22,11 @@ public class Plant {
         isAbleToMove = ableToMove;
     }
 
-    public String getNutrition() {
-        return nutrition;
+    public String getNutritionType() {
+        return nutritionType;
     }
 
-    public void setNutrition(String nutrition) {
-        this.nutrition = nutrition;
+    public void setNutritionType(String nutritionType) {
+        this.nutritionType = nutritionType;
     }
 }

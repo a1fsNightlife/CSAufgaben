@@ -12,13 +12,13 @@ public class Punkt {
         this.pointY = pointY;
     }
 
-    public static Punkt addPoint(Punkt punkt1, Punkt punkt2) {
+    public static Punkt addPunkt(Punkt punkt1, Punkt punkt2) {
         Double resultX = punkt1.getPointX() + punkt2.getPointX();
         Double resultY = punkt1.getPointY() + punkt2.getPointY();
         return new Punkt(resultX, resultY);
     }
 
-    public static Punkt subtractPoint(Punkt punkt1, Punkt punkt2) {
+    public static Punkt subtractPunkt(Punkt punkt1, Punkt punkt2) {
         Double resultX = punkt1.getPointX() - punkt2.getPointX();
         Double resultY = punkt1.getPointY() - punkt2.getPointY();
         return new Punkt(resultX, resultY);
@@ -40,16 +40,8 @@ public class Punkt {
         return pointX;
     }
 
-    public void setPointX(Double pointX) {
-        this.pointX = pointX;
-    }
-
     public Double getPointY() {
         return pointY;
-    }
-
-    public void setPointY(Double pointY) {
-        this.pointY = pointY;
     }
 
     @Override
