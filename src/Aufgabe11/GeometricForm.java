@@ -2,15 +2,10 @@ package Aufgabe11;
 
 public abstract class GeometricForm {
 
-    public Double perimeter;
-    public Double area;
+    private Double perimeter;
+    private Double area;
     public abstract Double calcPerimeter();
     public abstract Double calcArea();
-
-    public GeometricForm(Double perimeter, Double area) {
-        this.perimeter = perimeter;
-        this.area = area;
-    }
 
     public Double getPerimeter() {
         return perimeter;
