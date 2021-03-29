@@ -1,6 +1,7 @@
 package Aufgabe18;
 
 import java.util.Objects;
+import java.util.TreeSet;
 
 public class PersonHash {
 
@@ -30,4 +31,5 @@ public class PersonHash {
     public int hashCode() {
         return Objects.hash(name);
     }
+
 }
